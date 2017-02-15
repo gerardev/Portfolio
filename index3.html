@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gerardo López | Web Development</title>
+    
+    <meta name="robots" content="index, follow"/>
+    <meta name="googlebot" content="index, follow"/>
+    <meta name="hreflang" content="index, follow"/>
+    <link rel="alternate" href="http://gerardolopez.info/" hreflang="es-sv" />
+
+    <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendors/fullpage/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    
+    
+    <link href="assets/vendors/pace/pace.css" rel="stylesheet">
+  </head>
+  
+  <body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">  
+    
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    	  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered no-padding-horizontal"><img src="assets/img/logo160x30.png"></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a class="navbar-title" href="#home"><b>Home</b></a></li>
+		        <li><a class="navbar-title" href="#about"><b>About</b></a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a class="navbar-title" href="#"><b>Work</b></a></li>
+		        <li><a class="navbar-title" href="#"><b>Contact</b></a></li>	        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+    
+    <section>
+      <div id="fullpage">
+          <div class="section" id="home">
+            <div class="intro">
+              <h1 class="introtext text-center"><b>WEB DEVELOPER</b></h1>
+            </div>
+            <div class="arrow">
+              <i class="fa fa-chevron-down fa-2x" style="color:#fff;"></i>
+            </div>
+          </div>
+        
+          <div class="section" id="about">
+            <div class="intro">
+              <div class="container">
+                <div class="col-xs-12"><h2 class="white text-justify"><b>Eu fabulas praetermissum, tamen aut voluptate ea tamen, fore iudicem possumus, 
+                  ipsum ut hic illum appellat se legam qui si summis incididunt, mandaremus eu 
+                  eiusmod, id tamen an esse, ubi quid quibusdam arbitrantur.</b></h2></div>
+                <br>
+                <div class="col-sm-4">
+                  <div class="col-xs-12 text-center"><i class="fa fa-music  fa-5x abouttext white"></i></div>
+                  <div class="col-xs-12 text-cente abouttext shadowintolight white"><h2><b>666</b><br>Heard rock song's</h2></div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="col-xs-12 text-center"><i class="fa fa-code  fa-5x abouttext white"></i></div>
+                  <div class="col-xs-12 text-cente abouttext fjallaone white"><h2><b>4456456</b><br>Code lines</h2></div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="col-xs-12 text-center"><i class="fa fa-coffee fa-5x abouttext white"></i></div>
+                  <div class="col-xs-12 text-cente abouttext lobster white"><h2><b>48</b><br>Cups of coffee</h2></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="section" id="work">
+            <div class="intro">
+            </div>
+          </div>
+        
+        <div class="section" id="contact">
+            <div class="intro">
+            </div>
+          </div>
+      </div>
+    </section>
+    
+    
+    <script src="assets/vendors/pace/pace.min.js"></script>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/fullpage/jquery.fullpage.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          anchors: ['1', '2', '3', '4'],
+          autoScrolling: true,
+          fitToSection: true
+        });
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-82097539-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+  
+</html>

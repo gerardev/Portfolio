@@ -1,0 +1,317 @@
+      #home
+      {
+        background: #000 !important;
+      }
+      #about
+      {
+        /*background-image:  url(../img/fondo-verde3.png);*/
+/*      background: #3a8124;*/
+        color: #000;
+        background-position: center;
+        background-size: cover;
+      }
+      .introtext
+      {
+        font-size: 11vw;
+        color:#fff !important;
+      }
+    .introtext2
+      {
+        font-size: 9vw;
+        color:#000 !important;
+      }
+.introtext3
+      {
+        font-size: 8vw;
+        color:#000 !important;
+        margin-bottom: 20px;
+      }
+      .abouttext
+      {
+        font-size: 8em;
+      }
+      .navbar
+      {
+        background: transparent;
+        border: 0px;
+        height: 70px;
+      }
+      
+      @media screen and (min-width:768px){
+          .navbar-brand-centered {
+              position: absolute;
+              left: 50%;
+              display: block;
+              text-align: center;
+              margin: 0;
+              left: 50%;
+          }
+          .navbar>.container .navbar-brand-centered, 
+          .navbar>.container-fluid .navbar-brand-centered {
+              margin-left: -80px;
+          }
+      }
+      .navbar-title
+      {
+        color: #fff !important;
+        font-size: 2em;
+        text-decoration:inherit !important;
+      }
+      .no-padding-horizontal
+      {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+      .arrow
+      {
+        margin: 0;
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        color:#000 !important;
+      }
+      .yellow
+      {
+        color:#F9EC1C ;
+      }
+      .pink
+      {
+        color:#EC2490 ;
+      }
+      .white
+      {
+        color:#fff ;
+      }
+      .blue
+      {
+        color:#2B296B ;
+      }
+      .fjallaone{
+        font-family: 'Fjalla One', sans-serif;
+      }
+      .lobster{
+        font-family: 'Lobster', cursive;
+      }
+      .shadowintolight{
+        font-family: 'Shadows Into Light', cursive;
+      }
+@font-face {
+    font-family: RockShow;
+    src: url(../fonts/RockShowWhiplash.ttf);
+}
+@font-face {
+    font-family: dragonforce;
+    src: url(../fonts/dragonforce.ttf);
+}
+@font-face {
+    font-family: simplifica;
+    src: url(../fonts/simplifica.ttf);
+}
+.rockshow
+{
+  font-family: 'Rockshow';
+}
+.simplifica
+{
+  font-family: 'simplifica';
+}
+.dragonforce
+{
+  font-family: 'dragonforce';
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+#contact {
+  background: #1a1a1a;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+  .contact-text{
+    margin:45px auto;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+    width: 100%;
+    padding: 15px;
+    background:transparent;
+    border:1px solid #fff;
+    margin-bottom:25px;
+    color:#fff !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+    border:1px solid #2700ff;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #0b8801;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+/* Generic Button Styles */
+
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#8BC3A3;
+    color:white;
+  }
+
+/* Send Button Styles */
+
+  .form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:transparent;
+    border:1px solid #fff;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .form-btn:hover{
+    background:#fff;
+    color: #000;
+    border:none;
+  }
+
+  .form-btn:active{
+    opacity: 0.9;
+  }
+
+.fp-controlArrow.fp-prev {
+    border-color: transparent #fff transparent transparent !important;
+}
+.fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #fff !important;
+}
+
+
+
+#footer {
+  background: #000;
+  margin-top: 35px;
+  padding-top:50px; 
+  padding-bottom:50px; 
+}
+
+#logofooter {
+  margin: 30px;
+}
+
+.logosfooter {
+  color:#a1a1a1;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-right:20px; 
+  margin-left:20px; 
+  -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.logosfooter:hover {
+  color:#fff;
+  transform: scale(1.2);
+  -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#experience {
+}
+
+.introtext4 {
+  font-size: 5vw;
+  color: #fff;
+}
+#slide1{
+  background: #000;
+  background-image: url(../img/deadpool1-gallery-image.jpg);
+  background-size: cover;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gerardo López | Web Development</title>
+    
+    <meta name="robots" content="index, follow"/>
+    <meta name="googlebot" content="index, follow"/>
+    <meta name="hreflang" content="index, follow"/>
+    <link rel="alternate" href="http://gerardolopez.info/" hreflang="es-sv" />
+
+    <link href="assets/vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendors/fullpage/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href="assets/vendors/css-percentage-circle-master/css/circle.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/pace/pace.css" rel="stylesheet">
+  </head>
+  
+  <body> 
+    
+    <section>
+      <div id="fullpage">
+          <div class="section" id="home">
+            <div class="intro text-center">
+              <h1 class="introtext text-center simplifica"><b id="main-text-home"></b></h1>
+              <img src="assets/img/logos.png" style="padding:20px">
+              <h2 style="color:#fff;" >Website under construction.</h2>
+              <div class="col-sm-12">
+            <a href="https://www.facebook.com/glopez97"><i class="fa fa-facebook fa-2x logosfooter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/g_lopez97/"><i class="fa fa-instagram fa-2x logosfooter" aria-hidden="true"></i></a>
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/pace/pace.min.js"></script>
+    
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/fullpage/jquery.fullpage.min.js"></script>
+    <script src="assets/vendors/typed.js/dist/typed.min.js"></script>
+    <script src="assets/vendors/jillix-jQuery-sidebar-e5f8e63/src/jquery.sidebar.js"></script>
+    <script src="assets/vendors/progressbar.js-master/dist/progressbar.min.js"></script>
+    <script src="assets/js/progress.js"></script>
+    <script>
+    $(".sidebar.left").sidebar().trigger("sidebar:open");
+    </script>
+    <script>
+      $(function(){
+          $("#main-text-home").typed({
+            strings: ["Gerardo López^2000", "Web Developer^2000"],
+            typeSpeed: 50,
+            loop: true,
+          });
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          anchors: ['1', '2', '3', '4'],
+          autoScrolling: true,
+          fitToSection: true,
+          scrollBar: true,
+          menu: true,
+        });
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-82097539-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+      <script src="assets/js/custom.js"></script>
+    <script>
+      var date1="2001,01,01",f=new Date,date2=f.getFullYear()+","+(f.getMonth()+1)+","+f.getDate();date1=date1.split(","),date2=date2.split(","),date1=new Date(date1[0],date1[1],date1[2]),date2=new Date(date2[0],date2[1],date2[2]),date1_unixtime=parseInt(date1.getTime()/1e3),date2_unixtime=parseInt(date2.getTime()/1e3);var timeDifference=date2_unixtime-date1_unixtime,timeDifferenceInHours=timeDifference/60/60,timeDifferenceInDays=timeDifferenceInHours/24,pinkfloydcounter=document.getElementById("pinkfloydcounter");pinkfloydcounter.innerHTML=timeDifferenceInDays;
+      
+      var d1="2014,03,01",g=new Date,d2=g.getFullYear()+","+(g.getMonth()+1)+","+g.getDate();d1=d1.split(","),d2=d2.split(","),d1=new Date(d1[0],d1[1],d1[2]),d2=new Date(d2[0],d2[1],d2[2]),d1_unixtime=parseInt(d1.getTime()/1e3),d2_unixtime=parseInt(d2.getTime()/1e3);var timeDifference=d2_unixtime-date1_unixtime,timeDifferenceInHours=timeDifference/60/60,timeDifferenceInDays=timeDifferenceInHours/24,codelines=document.getElementById("codelines");codelines.innerHTML=timeDifferenceInDays*97;
+      
+      var e2="2016,10,08",h=new Date,e3=h.getFullYear()+","+(h.getMonth()+1)+","+h.getDate();e2=e2.split(","),e3=e3.split(","),e2=new Date(e2[0],e2[1],e2[2]),e3=new Date(e3[0],e3[1],e3[2]),e2_unixtime=parseInt(e2.getTime()/1e3),e3_unixtime=parseInt(e3.getTime()/1e3);var timeDifference=date2_unixtime-e2_unixtime,timeDifferenceInHours=timeDifference/60/60,timeDifferenceInDays=timeDifferenceInHours/24,scoutdays=document.getElementById("scoutdays");scoutdays.innerHTML=timeDifferenceInDays;
+    </script>
+    <script>
+        
+    </script>
+    
+    
+
+  </body>
+  
+</html>
